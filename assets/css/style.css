@@ -1,0 +1,243 @@
+/* TO DO:
+ Make all links function - ui scrolls to correct section
+ "when i click on the images of the applications im taken to that deployed application
+
+ */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+
+    min-height: 100vh;
+    /* made no diff */
+    justify-content: center;
+    /* max-width: 500px; */
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: rgb(159, 159, 224);
+    color: #4F4846;
+}
+/* adding justify content, height and width made the pic centered and smaller */
+#pic img { 
+    display: block;
+    /* max-width: 50px; */
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    /* margin: 1%; */
+    /* margin-left: 50%; */
+    /* margin left 50% centered image but pushed words left too */
+    /* changing margin does make image move but not how i want it */
+    /* align-items: center; -did nothing */
+    /* justify-content: end; -DID NOTHING */
+}
+
+/* h1 h2 are the margin for  */
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+header {
+    display: flex;
+    /* row-reverse moved github/portfolio/contact to teh R */
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background: rgb(139, 139, 219);
+}
+
+/* opacity for the hover key to make it more/less transparent */
+
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color: rgb(98, 98, 165);
+
+    /* height: 600px; */
+    text-align: center;
+    border: 15px solid black;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+}
+
+/* controls my name on top of image*/
+.text-center {
+    /* controls sentence under 'my pic" */
+    text-align: center;
+}
+
+nav {
+    /* changing this does nothing? */
+    /* how do you center this? or bring to far left */
+    text-align: left;
+}
+
+
+
+/* .all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+} */
+
+
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    /* flex: 0 0 300px; */
+    box-shadow: 10px 10px 5px #aaaaaa;
+    /* margin: 20px; */
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* flexdirection row made it line */
+}
+
+.card-small {
+    background-color: rgb(233, 132, 194);
+    /* made pic move to L, flex wrap-row made no diff */
+    /* display: flex;
+    flex-direction: wrap; */
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(rgba(235, 189, 236, 0.3) 0%,
+            rgba(68, 8, 70, 0.6) 100%);
+}
+
+
+
+.row-layout {
+    display: flex;
+}
+
+.row-heading {
+    min-width: 250px;
+}
+.r-side-layout {
+    flex: 1;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+/*
+
+.row-layout>h1 {
+    flex: 0 0 25%;
+    border-right: 8px solid red;
+}
+
+.row-layout>div {
+    flex: 0 0 70%;
+} */
+
+.card-large {
+    /* did not change i dont think? 
+    display: block;
+    margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+
+
+
+.content {
+    display: block;
+    margin: auto;
+}
+
+.abed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
