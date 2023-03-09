@@ -7,23 +7,20 @@
 body {
     font-family: Arial;
     margin: 0;
-
     min-height: 100vh;
-    /* made no diff */
     justify-content: center;
-    /* max-width: 500px; */
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
     background-color: rgb(159, 159, 224);
     color: #4F4846;
 }
+
 /* adding justify content, height and width made the pic centered and smaller */
-#pic img { 
+#pic img {
     display: block;
-    /* max-width: 50px; */
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 275px;
     /* margin: 1%; */
     /* margin-left: 50%; */
     /* margin left 50% centered image but pushed words left too */
@@ -44,7 +41,6 @@ main {
 
 header {
     display: flex;
-    /* row-reverse moved github/portfolio/contact to teh R */
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
@@ -95,7 +91,6 @@ section {
     padding: 20px 10px 40px 10px;
     border-top: 3px solid #DDAF94;
     background-color: rgb(98, 98, 165);
-
     /* height: 600px; */
     text-align: center;
     border: 15px solid black;
@@ -134,7 +129,7 @@ button {
     color: #FDF8F5;
 }
 
-/* controls my name on top of image*/
+/* controls name on top of image*/
 .text-center {
     /* controls sentence under 'my pic" */
     text-align: center;
@@ -147,25 +142,12 @@ nav {
 }
 
 
-
-/* .all-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-} */
-
-
-
 .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
     padding: 10px;
-    /* flex: 0 0 300px; */
     box-shadow: 10px 10px 5px #aaaaaa;
-    /* margin: 20px; */
     align-items: flex-end;
     display: flex;
     flex-wrap: wrap;
@@ -176,8 +158,6 @@ nav {
 .card-small {
     background-color: rgb(233, 132, 194);
     /* made pic move to L, flex wrap-row made no diff */
-    /* display: flex;
-    flex-direction: wrap; */
 }
 
 .linear-gradient-background {
@@ -194,6 +174,7 @@ nav {
 .row-heading {
     min-width: 250px;
 }
+
 .r-side-layout {
     flex: 1;
     /* display: flex;
@@ -212,9 +193,6 @@ nav {
 } */
 
 .card-large {
-    /* did not change i dont think? 
-    display: block;
-    margin: auto; */
     margin-left: auto;
     margin-right: auto;
     background-color: antiquewhite;
